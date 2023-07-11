@@ -1,2 +1,3 @@
 # graphql-svr
-Small Graphql server with MongoDB
+Small Book app for learning GraphQL
+GraphQL with MongoDB and React and Node js
