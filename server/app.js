@@ -11,7 +11,9 @@ app.use(cors());
 
 // connect to mlab database
 // make sure to replace my db string & creds with your own
-mongoose.connect('mongodb://ninja:test@ds161148.mlab.com:61148/graphql-ninja')
+//mongoose.connect('mongodb://ninja:test@ds161148.mlab.com:61148/graphql-ninja')
+//"mongodb://localhost:27017"
+mongoose.connect('mongodb://localhost:27017')
 mongoose.connection.once('open', () => {
     console.log('conneted to database');
 });
